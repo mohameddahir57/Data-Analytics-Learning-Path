@@ -113,16 +113,7 @@ data-analytics-learning-path/
     └── Week16_Capstone/
 ```
 
-##  My Progress
 
-| Module | Tool | Weeks | Status |
-|--------|------|-------|--------|
-| 1 | Introduction to Data Analytics | Week 1 |  Done |
-| 2 | Microsoft Excel | Weeks 2–4 |  In Progress |
-| 3 | Power BI | Weeks 5–6 |  Upcoming |
-| 4 | Tableau | Weeks 7–8 |  Upcoming |
-| 5 | SQL | Weeks 9–12 |  Upcoming |
-| 6 | RStudio | Weeks 13–16 |  Upcoming |
 
 ##  My Goal
 
