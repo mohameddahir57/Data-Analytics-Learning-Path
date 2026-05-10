@@ -1,4 +1,3 @@
-#  Data Analytics Learning Path
 
 ### Diploma in Data Analytics BENAADIR Research, Consultancy & Evaluation Center
 
