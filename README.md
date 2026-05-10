@@ -1,3 +1,5 @@
+#  Data Analytics Learning Path
+
 ### Diploma in Data Analytics BENAADIR Research, Consultancy & Evaluation Center
 
 > A structured, hands-on 16-week diploma program covering the full data analytics workflow from foundational concepts to job-ready tools and a final capstone project.
