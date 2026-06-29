@@ -1,21 +1,20 @@
+-- SQL Lesson 01 - Students Database
+
 -- Create the Students database
-CREATE DATABASE Student02;
+CREATE DATABASE Students;
 
-
-USE Student02;
+-- Select the Students database to use
+USE Students;
 
 -- Create student_info table
 CREATE TABLE student_info (
     STD_ID INT PRIMARY KEY,
     STD_Name VARCHAR(40),
     Gender VARCHAR(40),
-    Marks int
+    Marks INT
 );
 
-
-
-
--- Insert students into student_info table
+-- Insert 50 Somali students into student_info table
 INSERT INTO student_info (STD_ID, STD_Name, Gender, Marks) VALUES
 (1, 'Ahmed Hassan Mohamed', 'Male', 78),
 (2, 'Faadumo Ali Warsame', 'Female', 85),
@@ -68,29 +67,31 @@ INSERT INTO student_info (STD_ID, STD_Name, Gender, Marks) VALUES
 (49, 'Khadija Hassan Muuse', 'Female', 91),
 (50, 'Bile Jama Warsame', 'Male', 67);
 
-
-
--- Select table student_info
+-- Retrieve all records from student_info table
 SELECT * FROM student_info;
 
+-- Retrieve specific columns from student_info table
+SELECT STD_ID, STD_Name, Gender, Marks FROM student_info;
 
 -- Retrieve a specific student by ID
-SELECT * FROM 
-student_info 
-WHERE STD_ID = 1;
-
--- Update a specific student record
-UPDATE student_info 
-SET Marks = 90 
-WHERE STD_ID = 1;
-
--- Update a specific student record
-UPDATE student_info
-SET Marks = 90 
-WHERE STD_ID = 1;
-
+SELECT * FROM student_info WHERE STD_ID = 1;
 
 -- Update student name where ID = 1
-UPDATE student_info 
-SET STD_Name = 'Mohamed Dahir Osman' 
-WHERE STD_ID = 1;
+UPDATE student_info SET STD_Name = 'Mohamed Dahir Osman' WHERE STD_ID = 1;
+
+-- SQL Lesson 01 - Definitions
+
+-- CREATE DATABASE: Creates a new database in the SQL server
+-- USE: Selects a database to work with
+-- CREATE TABLE: Creates a new table inside the database with defined columns and data types
+-- INT: A data type that stores whole numbers
+-- VARCHAR: A data type that stores text up to a specified length
+-- PRIMARY KEY: A column that uniquely identifies each row in a table
+-- DECIMAL: A data type that stores numbers with decimal points
+-- INSERT INTO: Adds new rows of data into a table
+-- VALUES: Specifies the data to be inserted into the table
+-- SELECT: Retrieves data from a table
+-- SELECT *: Retrieves all columns from a table
+-- WHERE: Filters records based on a condition
+-- UPDATE: Modifies existing data in a table
+-- SET: Specifies the column and new value to update
