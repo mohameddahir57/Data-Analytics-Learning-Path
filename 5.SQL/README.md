@@ -1,13 +1,10 @@
 # SQL Course - Full Documentation
 ### Student: Mohamed | Jamhuriya University of Science and Technology
 ### Course: Structured Query Language (SQL)
----
 
 ## Course Overview
 
 This course covers the fundamentals of SQL from database creation to advanced queries and real-world portfolio projects. All lessons were practiced using MySQL with real datasets.
-
----
 
 ## Course Structure
 
@@ -20,8 +17,6 @@ This course covers the fundamentals of SQL from database creation to advanced qu
 | Day 4 | Aggregate Functions with JOIN & GROUP BY | SQL_Day_04_Aggregates_Join.sql |
 | Lesson 5 | Transformation - CASE, DISTINCT, Calculated Columns | SQL_Lesson_05_Transformation_CASE.sql |
 | Project | Portfolio Project - Retail Sales KPI Analysis | SQL_Portfolio_Project_01_Somalia_Sales_Analysis.sql |
-
----
 
 ## Lesson 1 - Database Basics
 
@@ -73,9 +68,7 @@ UPDATE student_info SET STD_Name = 'Mohamed Dahir' WHERE STD_ID = 1;
 | SELECT | Retrieves data from a table |
 | UPDATE | Modifies existing data |
 
----
-
-## 📗 Lesson 2 - Filtering
+## Lesson 2 - Filtering
 
 ### Topics Covered
 - WHERE
@@ -122,9 +115,7 @@ SELECT * FROM student_info WHERE Gender IN ('Male', 'Female');
 | IN | Matches any value in a list |
 | DISTINCT | Returns only unique values |
 
----
-
-## 📗 Lesson 3 - GROUP BY & ORDER BY
+## Lesson 3 - GROUP BY & ORDER BY
 
 ### Topics Covered
 - ORDER BY (ASC, DESC)
@@ -183,9 +174,7 @@ ORDER BY lowest_sales ASC;
 | MIN() | Returns the lowest value in a column |
 | AS | Renames a column result with an alias |
 
----
-
-## 📗 Day 3 & Day 4 - JOINS & Aggregate with JOIN
+## Day 3 & Day 4 - JOINS & Aggregate with JOIN
 
 ### Topics Covered
 - INNER JOIN
@@ -235,9 +224,7 @@ ORDER BY Total_Sales DESC;
 | ROUND() | Rounds a number to specified decimal places |
 | Alias (c,f,p) | Short name given to a table for easier reading |
 
----
-
-## 📗 Lesson 5 - Transformation & CASE
+## Lesson 5 - Transformation & CASE
 
 ### Topics Covered
 - Calculated Columns (Quantity * UnitPrice)
@@ -284,9 +271,7 @@ ORDER BY Total_Sales DESC;
 | DISTINCT | Returns only unique values, removes duplicates |
 | * | Multiplication operator for calculated columns |
 
----
-
-## 📗 Portfolio Project - Retail Sales KPI Analysis
+## Portfolio Project - Retail Sales KPI Analysis
 
 ### Project Overview
 A retail and ICT supply company in Somalia needed to understand sales performance across cities, regions, products, and sales channels.
@@ -326,9 +311,7 @@ A retail and ICT supply company in Somalia needed to understand sales performanc
 | 5 | Revenue by Sales Channel |
 | 6 | Profit by Sales Channel |
 
----
-
-## 🏆 Skills Gained
+## Skills Gained
 
 - Creating and managing databases and tables
 - Inserting, selecting, updating data
@@ -340,6 +323,6 @@ A retail and ICT supply company in Somalia needed to understand sales performanc
 - Calculating KPIs for business reporting
 - Real-world portfolio project experience
 
----
 
-*SQL Course Completed | Jamhuriya University of Science and Technology | Mogadishu, Somalia*
+
+*SQL Course Completed | Benaadir Reseach Innovation Network | Mogadishu, Somalia*
