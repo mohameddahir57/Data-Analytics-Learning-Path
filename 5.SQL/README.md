@@ -1,15 +1,15 @@
-# 📘 SQL Course - Full Documentation
+# SQL Course - Full Documentation
 ### Student: Mohamed | Jamhuriya University of Science and Technology
 ### Course: Structured Query Language (SQL)
 ---
 
-## 📌 Course Overview
+## Course Overview
 
 This course covers the fundamentals of SQL from database creation to advanced queries and real-world portfolio projects. All lessons were practiced using MySQL with real datasets.
 
 ---
 
-## 📂 Course Structure
+## Course Structure
 
 | Lesson | Topic | File |
 |--------|-------|------|
@@ -23,7 +23,7 @@ This course covers the fundamentals of SQL from database creation to advanced qu
 
 ---
 
-## 📗 Lesson 1 - Database Basics
+## Lesson 1 - Database Basics
 
 ### Topics Covered
 - CREATE DATABASE
