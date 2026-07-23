@@ -13,9 +13,9 @@ This course covers the fundamentals of SQL from database creation to advanced qu
 | Lesson 1 | Database Basics - CREATE, INSERT, SELECT, UPDATE | SQL_Lesson_01_Basics.sql |
 | Lesson 2 | Filtering - WHERE, LIKE, AND, OR, IN | SQL_Lesson_02_Filtering.sql |
 | Lesson 3 | Sorting & Grouping - GROUP BY, ORDER BY | SQL_Lesson_03_GroupBy_OrderBy.sql |
-| Day 3 | JOINS - INNER JOIN, PRIMARY KEY, FOREIGN KEY | SQL_Day_03_Joins_Basics.sql |
-| Day 4 | Aggregate Functions with JOIN & GROUP BY | SQL_Day_04_Aggregates_Join.sql |
-| Lesson 5 | Transformation - CASE, DISTINCT, Calculated Columns | SQL_Lesson_05_Transformation_CASE.sql |
+| Lesson 4 | JOINS - INNER JOIN, PRIMARY KEY, FOREIGN KEY | SQL_Day_03_Joins_Basics.sql |
+| Lesson 5 | Aggregate Functions with JOIN & GROUP BY | SQL_Day_04_Aggregates_Join.sql |
+| Lesson 6 | Transformation - CASE, DISTINCT, Calculated Columns | SQL_Lesson_05_Transformation_CASE.sql |
 | Project | Portfolio Project - Retail Sales KPI Analysis | SQL_Portfolio_Project_01_Somalia_Sales_Analysis.sql |
 
 ## Lesson 1 - Database Basics
